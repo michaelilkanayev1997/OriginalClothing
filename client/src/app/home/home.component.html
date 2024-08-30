@@ -1,4 +1,4 @@
-<div class="column">
+<div class="column gap-1">
   <!-- Products Section -->
   <div class="row wrap gap-2 space-between">
     <app-product
@@ -6,4 +6,13 @@
       [product]="product"
     ></app-product>
   </div>
+
+  <!-- Paginator -->
+  <p-paginator
+    [rows]="rows"
+    [totalRecords]="totalRecords"
+    [rowsPerPageOptions]="[6, 12, 20]"
+    (onPageChange)="onPageChange($event)"
+    #paginator
+  ></p-paginator>
 </div>
