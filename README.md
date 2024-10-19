@@ -21,8 +21,9 @@ This project was mainly created to learn **Angular**.
 
 1. **Clone the Repository**
 
-   git clone https://github.com/michaelilkanayev1997/OriginalClothing.git
-   cd your-repo
+   - git clone https://github.com/michaelilkanayev1997/OriginalClothing.git
+     
+     cd OriginalClothing
 
 2. **Install Dependencies**
 
